@@ -1,0 +1,266 @@
+// @import "bootstrap";
+@import "./_variables.scss";
+@import "./_transitions.scss";
+@import "./_overrides.scss";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Press Start 2P", cursive;
+}
+
+.enable {
+  cursor: pointer;
+}
+
+.disable {
+  pointer-events: none;
+  cursor: none;
+}
+
+.b-line {
+  border-bottom-width: 3px;
+  border-bottom-color: var(--dark);
+  border-bottom-style: solid;
+  opacity: .5;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+// .next-steps .fa-link {
+//   margin-right: 5px;
+// }
+
+// .next-steps .row {
+//   margin-bottom: 0;
+// }
+
+// .next-steps .col-md-5 {
+//   margin-bottom: 3rem;
+// }
+
+// @media (max-width: 768px) {
+//   .next-steps .col-md-5 {
+//     margin-bottom: 0;
+//   }
+// }
+
+// .spinner {
+//   position: absolute;
+//   display: flex;
+//   justify-content: center;
+//   height: 100vh;
+//   width: 100vw;
+//   background-color: white;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+// }
+
+.result-block-container .result-block {
+  opacity: 1;
+}
+
+@media (min-width: 0) {
+  .font-xxs {
+    font-size: .8rem;
+  }
+  .font-xs {
+    font-size: .9rem;
+  }
+  .font-sm {
+    font-size: 1rem;
+  }
+  .font-md {
+  font-size: 1.05rem;
+  }
+  .font-lg {
+  font-size: 1.1rem;
+  }
+  .font-xl {
+    font-size: 1.25rem;
+  }
+  .font-xxl {
+    font-size: 1.75rem;
+  }
+  .text-shadow {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .icon {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .font-xxs {
+    font-size: .85rem;
+  }
+  .font-xs {
+    font-size: .95rem;
+  }
+  .font-sm {
+    font-size: 1.05rem;
+  }
+  .font-md {
+  font-size: 1.15rem;
+  }
+  .font-lg {
+  font-size: 1.25rem;
+  }
+  .font-xl {
+    font-size: 1.5rem;
+  }
+  .font-xxl {
+    font-size: 2rem;
+  }
+  .text-shadow {
+    text-shadow: -1.25px -1.25px 0 #000, 1.25px -1.25px 0 #000, -1.25px 1.25px 0 #000,
+      1.25px 1.25px 0 #000;
+  }
+  .icon {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-xxs {
+    font-size: .9rem;
+  }
+  .font-xs {
+    font-size: 1.05rem;
+  }
+  .font-sm {
+    font-size: 1.2rem;
+  }
+  .font-md {
+  font-size: 1.35rem;
+  }
+  .font-lg {
+  font-size: 1.5rem;
+  }
+  .font-xl {
+    font-size: 1.75rem;
+  }
+  .font-xxl {
+    font-size: 2.25rem;
+  }
+  .text-shadow {
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+      1.5px 1.5px 0 #000;
+  }
+  .icon {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .font-xxs {
+    font-size: 1rem;
+  }
+  .font-xs {
+    font-size: 1.15rem;
+  }
+  .font-sm {
+    font-size: 1.3rem;
+  }
+  .font-md {
+  font-size: 1.45rem;
+  }
+  .font-lg {
+  font-size: 1.75rem;
+  }
+  .font-xl {
+    font-size: 2rem;
+  }
+  .font-xxl {
+    font-size: 2.25rem;
+  }
+  .text-shadow {
+    text-shadow: -1.75px -1.75px 0 #000, 1.75px -1.75px 0 #000, -1.75px 1.75px 0 #000,
+      1.75px 1.75px 0 #000;
+  }
+  .icon {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .font-xxs {
+    font-size: 1rem;
+  }
+  .font-xs {
+    font-size: 1.25rem;
+  }
+  .font-sm {
+    font-size: 1.5rem;
+  }
+  .font-md {
+  font-size: 1.75rem;
+  }
+  .font-lg {
+  font-size: 2rem;
+  }
+  .font-xl {
+    font-size: 2.25rem;
+  }
+  .font-xxl {
+    font-size: 2.5rem;
+  }
+  .text-shadow {
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000,
+      -2px 2px 0 #000, 2px 2px 0 #000;
+  }
+  .icon {
+    font-size: 5rem;
+  }
+}
+
+
+
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
