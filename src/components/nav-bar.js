@@ -1,7 +1,7 @@
 import React from "react";
 
-import MainNav from "./main-nav";
-import AuthNav from "../auth/auth-nav";
+// import MainNav from "./main-nav";
+// import AuthNav from "../auth/auth-nav";
 import { NavLink } from "react-router-dom";
 import DropNav from "./drop-nav";
 

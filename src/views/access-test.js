@@ -48,7 +48,7 @@ function AccessTest() {
               </button>
             </div>
             <div className="col-md-4 col-sm-6 col-12 my-2">
-              <button type="button" className="btn font-xs w-100 btn-outline-secondary" disabled>
+              <button type="button" className="btn font-xs w-100 btn-outline-secondary">
                 Secondary
               </button>
             </div>
@@ -58,7 +58,7 @@ function AccessTest() {
               </button>
             </div>
             <div className="col-md-4 col-sm-6 col-12 my-2">
-              <button type="button" className="btn font-xs w-100 btn-outline-warning" disabled>
+              <button type="button" className="btn font-xs w-100 btn-outline-warning">
                 Warning
               </button>
             </div>
